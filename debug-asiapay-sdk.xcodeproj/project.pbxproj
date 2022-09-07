@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10013A6928C8A88B009A9449 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10013A6828C8A88B009A9449 /* AppDelegate.m */; };
+		10013A6C28C8A88B009A9449 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10013A6B28C8A88B009A9449 /* SceneDelegate.m */; };
+		10013A6F28C8A88B009A9449 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10013A6E28C8A88B009A9449 /* ViewController.m */; };
+		10013A7228C8A88B009A9449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10013A7028C8A88B009A9449 /* Main.storyboard */; };
+		10013A7428C8A88C009A9449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10013A7328C8A88C009A9449 /* Assets.xcassets */; };
+		10013A7728C8A88C009A9449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10013A7528C8A88C009A9449 /* LaunchScreen.storyboard */; };
+		10013A7A28C8A88C009A9449 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10013A7928C8A88C009A9449 /* main.m */; };
+		10013A8428C8A88C009A9449 /* debug_asiapay_sdkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10013A8328C8A88C009A9449 /* debug_asiapay_sdkTests.m */; };
+		10013A8F28C8A88C009A9449 /* debug_asiapay_sdkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10013A8E28C8A88C009A9449 /* debug_asiapay_sdkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10013A8028C8A88C009A9449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10013A5C28C8A88B009A9449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10013A6328C8A88B009A9449;
+			remoteInfo = "debug-asiapay-sdk";
+		};
+		10013A8B28C8A88C009A9449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10013A5C28C8A88B009A9449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10013A6328C8A88B009A9449;
+			remoteInfo = "debug-asiapay-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10013A6428C8A88B009A9449 /* debug-asiapay-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "debug-asiapay-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10013A6728C8A88B009A9449 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10013A6828C8A88B009A9449 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10013A6A28C8A88B009A9449 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		10013A6B28C8A88B009A9449 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		10013A6D28C8A88B009A9449 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10013A6E28C8A88B009A9449 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10013A7128C8A88B009A9449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10013A7328C8A88C009A9449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10013A7628C8A88C009A9449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10013A7828C8A88C009A9449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10013A7928C8A88C009A9449 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10013A7F28C8A88C009A9449 /* debug-asiapay-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "debug-asiapay-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10013A8328C8A88C009A9449 /* debug_asiapay_sdkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = debug_asiapay_sdkTests.m; sourceTree = "<group>"; };
+		10013A8528C8A88C009A9449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10013A8A28C8A88C009A9449 /* debug-asiapay-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "debug-asiapay-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10013A8E28C8A88C009A9449 /* debug_asiapay_sdkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = debug_asiapay_sdkUITests.m; sourceTree = "<group>"; };
+		10013A9028C8A88C009A9449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10013A6128C8A88B009A9449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10013A7C28C8A88C009A9449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10013A8728C8A88C009A9449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10013A5B28C8A88B009A9449 = {
+			isa = PBXGroup;
+			children = (
+				10013A6628C8A88B009A9449 /* debug-asiapay-sdk */,
+				10013A8228C8A88C009A9449 /* debug-asiapay-sdkTests */,
+				10013A8D28C8A88C009A9449 /* debug-asiapay-sdkUITests */,
+				10013A6528C8A88B009A9449 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10013A6528C8A88B009A9449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10013A6428C8A88B009A9449 /* debug-asiapay-sdk.app */,
+				10013A7F28C8A88C009A9449 /* debug-asiapay-sdkTests.xctest */,
+				10013A8A28C8A88C009A9449 /* debug-asiapay-sdkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10013A6628C8A88B009A9449 /* debug-asiapay-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				10013A6728C8A88B009A9449 /* AppDelegate.h */,
+				10013A6828C8A88B009A9449 /* AppDelegate.m */,
+				10013A6A28C8A88B009A9449 /* SceneDelegate.h */,
+				10013A6B28C8A88B009A9449 /* SceneDelegate.m */,
+				10013A6D28C8A88B009A9449 /* ViewController.h */,
+				10013A6E28C8A88B009A9449 /* ViewController.m */,
+				10013A7028C8A88B009A9449 /* Main.storyboard */,
+				10013A7328C8A88C009A9449 /* Assets.xcassets */,
+				10013A7528C8A88C009A9449 /* LaunchScreen.storyboard */,
+				10013A7828C8A88C009A9449 /* Info.plist */,
+				10013A7928C8A88C009A9449 /* main.m */,
+			);
+			path = "debug-asiapay-sdk";
+			sourceTree = "<group>";
+		};
+		10013A8228C8A88C009A9449 /* debug-asiapay-sdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				10013A8328C8A88C009A9449 /* debug_asiapay_sdkTests.m */,
+				10013A8528C8A88C009A9449 /* Info.plist */,
+			);
+			path = "debug-asiapay-sdkTests";
+			sourceTree = "<group>";
+		};
+		10013A8D28C8A88C009A9449 /* debug-asiapay-sdkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10013A8E28C8A88C009A9449 /* debug_asiapay_sdkUITests.m */,
+				10013A9028C8A88C009A9449 /* Info.plist */,
+			);
+			path = "debug-asiapay-sdkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10013A6328C8A88B009A9449 /* debug-asiapay-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10013A9328C8A88C009A9449 /* Build configuration list for PBXNativeTarget "debug-asiapay-sdk" */;
+			buildPhases = (
+				10013A6028C8A88B009A9449 /* Sources */,
+				10013A6128C8A88B009A9449 /* Frameworks */,
+				10013A6228C8A88B009A9449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "debug-asiapay-sdk";
+			productName = "debug-asiapay-sdk";
+			productReference = 10013A6428C8A88B009A9449 /* debug-asiapay-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10013A7E28C8A88C009A9449 /* debug-asiapay-sdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10013A9628C8A88C009A9449 /* Build configuration list for PBXNativeTarget "debug-asiapay-sdkTests" */;
+			buildPhases = (
+				10013A7B28C8A88C009A9449 /* Sources */,
+				10013A7C28C8A88C009A9449 /* Frameworks */,
+				10013A7D28C8A88C009A9449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10013A8128C8A88C009A9449 /* PBXTargetDependency */,
+			);
+			name = "debug-asiapay-sdkTests";
+			productName = "debug-asiapay-sdkTests";
+			productReference = 10013A7F28C8A88C009A9449 /* debug-asiapay-sdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10013A8928C8A88C009A9449 /* debug-asiapay-sdkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10013A9928C8A88C009A9449 /* Build configuration list for PBXNativeTarget "debug-asiapay-sdkUITests" */;
+			buildPhases = (
+				10013A8628C8A88C009A9449 /* Sources */,
+				10013A8728C8A88C009A9449 /* Frameworks */,
+				10013A8828C8A88C009A9449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10013A8C28C8A88C009A9449 /* PBXTargetDependency */,
+			);
+			name = "debug-asiapay-sdkUITests";
+			productName = "debug-asiapay-sdkUITests";
+			productReference = 10013A8A28C8A88C009A9449 /* debug-asiapay-sdkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10013A5C28C8A88B009A9449 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					10013A6328C8A88B009A9449 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					10013A7E28C8A88C009A9449 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 10013A6328C8A88B009A9449;
+					};
+					10013A8928C8A88C009A9449 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 10013A6328C8A88B009A9449;
+					};
+				};
+			};
+			buildConfigurationList = 10013A5F28C8A88B009A9449 /* Build configuration list for PBXProject "debug-asiapay-sdk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10013A5B28C8A88B009A9449;
+			productRefGroup = 10013A6528C8A88B009A9449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10013A6328C8A88B009A9449 /* debug-asiapay-sdk */,
+				10013A7E28C8A88C009A9449 /* debug-asiapay-sdkTests */,
+				10013A8928C8A88C009A9449 /* debug-asiapay-sdkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10013A6228C8A88B009A9449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10013A7728C8A88C009A9449 /* LaunchScreen.storyboard in Resources */,
+				10013A7428C8A88C009A9449 /* Assets.xcassets in Resources */,
+				10013A7228C8A88B009A9449 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10013A7D28C8A88C009A9449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10013A8828C8A88C009A9449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10013A6028C8A88B009A9449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10013A6F28C8A88B009A9449 /* ViewController.m in Sources */,
+				10013A6928C8A88B009A9449 /* AppDelegate.m in Sources */,
+				10013A7A28C8A88C009A9449 /* main.m in Sources */,
+				10013A6C28C8A88B009A9449 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10013A7B28C8A88C009A9449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10013A8428C8A88C009A9449 /* debug_asiapay_sdkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10013A8628C8A88C009A9449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10013A8F28C8A88C009A9449 /* debug_asiapay_sdkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10013A8128C8A88C009A9449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10013A6328C8A88B009A9449 /* debug-asiapay-sdk */;
+			targetProxy = 10013A8028C8A88C009A9449 /* PBXContainerItemProxy */;
+		};
+		10013A8C28C8A88C009A9449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10013A6328C8A88B009A9449 /* debug-asiapay-sdk */;
+			targetProxy = 10013A8B28C8A88C009A9449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10013A7028C8A88B009A9449 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10013A7128C8A88B009A9449 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10013A7528C8A88C009A9449 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10013A7628C8A88C009A9449 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10013A9128C8A88C009A9449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10013A9228C8A88C009A9449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10013A9428C8A88C009A9449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3S2A78B46;
+				INFOPLIST_FILE = "debug-asiapay-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samchan.debug-asiapay-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10013A9528C8A88C009A9449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3S2A78B46;
+				INFOPLIST_FILE = "debug-asiapay-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samchan.debug-asiapay-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10013A9728C8A88C009A9449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3S2A78B46;
+				INFOPLIST_FILE = "debug-asiapay-sdkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samchan.debug-asiapay-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/debug-asiapay-sdk.app/debug-asiapay-sdk";
+			};
+			name = Debug;
+		};
+		10013A9828C8A88C009A9449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3S2A78B46;
+				INFOPLIST_FILE = "debug-asiapay-sdkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samchan.debug-asiapay-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/debug-asiapay-sdk.app/debug-asiapay-sdk";
+			};
+			name = Release;
+		};
+		10013A9A28C8A88C009A9449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3S2A78B46;
+				INFOPLIST_FILE = "debug-asiapay-sdkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samchan.debug-asiapay-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "debug-asiapay-sdk";
+			};
+			name = Debug;
+		};
+		10013A9B28C8A88C009A9449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3S2A78B46;
+				INFOPLIST_FILE = "debug-asiapay-sdkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "samchan.debug-asiapay-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "debug-asiapay-sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10013A5F28C8A88B009A9449 /* Build configuration list for PBXProject "debug-asiapay-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10013A9128C8A88C009A9449 /* Debug */,
+				10013A9228C8A88C009A9449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10013A9328C8A88C009A9449 /* Build configuration list for PBXNativeTarget "debug-asiapay-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10013A9428C8A88C009A9449 /* Debug */,
+				10013A9528C8A88C009A9449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10013A9628C8A88C009A9449 /* Build configuration list for PBXNativeTarget "debug-asiapay-sdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10013A9728C8A88C009A9449 /* Debug */,
+				10013A9828C8A88C009A9449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10013A9928C8A88C009A9449 /* Build configuration list for PBXNativeTarget "debug-asiapay-sdkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10013A9A28C8A88C009A9449 /* Debug */,
+				10013A9B28C8A88C009A9449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10013A5C28C8A88B009A9449 /* Project object */;
+}
