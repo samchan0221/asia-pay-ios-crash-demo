@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,10 @@
 		10013A7A28C8A88C009A9449 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10013A7928C8A88C009A9449 /* main.m */; };
 		10013A8428C8A88C009A9449 /* debug_asiapay_sdkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10013A8328C8A88C009A9449 /* debug_asiapay_sdkTests.m */; };
 		10013A8F28C8A88C009A9449 /* debug_asiapay_sdkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10013A8E28C8A88C009A9449 /* debug_asiapay_sdkUITests.m */; };
+		10013A9D28C8AA71009A9449 /* paysdk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10013A9C28C8AA71009A9449 /* paysdk.plist */; };
+		18DC2FE68DCEFE20635A726C /* Pods_debug_asiapay_sdkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C39BB73FDD550F1E2D7F72F /* Pods_debug_asiapay_sdkTests.framework */; };
+		7AA7516F1DE79CB5592D6DFF /* Pods_debug_asiapay_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FF113E4F7EF4A3B03E6B88 /* Pods_debug_asiapay_sdk.framework */; };
+		F11A69FE38A30FF8FD93AB05 /* Pods_debug_asiapay_sdk_debug_asiapay_sdkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E381C9E62B3885588928FA4 /* Pods_debug_asiapay_sdk_debug_asiapay_sdkUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,16 @@
 		10013A8A28C8A88C009A9449 /* debug-asiapay-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "debug-asiapay-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10013A8E28C8A88C009A9449 /* debug_asiapay_sdkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = debug_asiapay_sdkUITests.m; sourceTree = "<group>"; };
 		10013A9028C8A88C009A9449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10013A9C28C8AA71009A9449 /* paysdk.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = paysdk.plist; sourceTree = "<group>"; };
+		29ED62EA95F4463061EC8D88 /* Pods-debug-asiapay-sdkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-debug-asiapay-sdkTests.release.xcconfig"; path = "Target Support Files/Pods-debug-asiapay-sdkTests/Pods-debug-asiapay-sdkTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C39BB73FDD550F1E2D7F72F /* Pods_debug_asiapay_sdkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_debug_asiapay_sdkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E381C9E62B3885588928FA4 /* Pods_debug_asiapay_sdk_debug_asiapay_sdkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_debug_asiapay_sdk_debug_asiapay_sdkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53216FC37E2C189A27DAACB3 /* Pods-debug-asiapay-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-debug-asiapay-sdk.debug.xcconfig"; path = "Target Support Files/Pods-debug-asiapay-sdk/Pods-debug-asiapay-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		726E7B3015DD0CA042653989 /* Pods-debug-asiapay-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-debug-asiapay-sdk.release.xcconfig"; path = "Target Support Files/Pods-debug-asiapay-sdk/Pods-debug-asiapay-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		88FCB211F25DF0F2389528F2 /* Pods-debug-asiapay-sdkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-debug-asiapay-sdkTests.debug.xcconfig"; path = "Target Support Files/Pods-debug-asiapay-sdkTests/Pods-debug-asiapay-sdkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C24F419055C1068A512C919 /* Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.debug.xcconfig"; path = "Target Support Files/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E239EA6B8F46EEC2EE7635A8 /* Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.release.xcconfig"; path = "Target Support Files/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0FF113E4F7EF4A3B03E6B88 /* Pods_debug_asiapay_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_debug_asiapay_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA7516F1DE79CB5592D6DFF /* Pods_debug_asiapay_sdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DC2FE68DCEFE20635A726C /* Pods_debug_asiapay_sdkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11A69FE38A30FF8FD93AB05 /* Pods_debug_asiapay_sdk_debug_asiapay_sdkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +105,8 @@
 				10013A8228C8A88C009A9449 /* debug-asiapay-sdkTests */,
 				10013A8D28C8A88C009A9449 /* debug-asiapay-sdkUITests */,
 				10013A6528C8A88B009A9449 /* Products */,
+				7CECD8BEEA8A43D7E34DAA82 /* Pods */,
+				94E5B949A8D3E7F5B9109750 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +134,7 @@
 				10013A7528C8A88C009A9449 /* LaunchScreen.storyboard */,
 				10013A7828C8A88C009A9449 /* Info.plist */,
 				10013A7928C8A88C009A9449 /* main.m */,
+				10013A9C28C8AA71009A9449 /* paysdk.plist */,
 			);
 			path = "debug-asiapay-sdk";
 			sourceTree = "<group>";
@@ -137,6 +157,29 @@
 			path = "debug-asiapay-sdkUITests";
 			sourceTree = "<group>";
 		};
+		7CECD8BEEA8A43D7E34DAA82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53216FC37E2C189A27DAACB3 /* Pods-debug-asiapay-sdk.debug.xcconfig */,
+				726E7B3015DD0CA042653989 /* Pods-debug-asiapay-sdk.release.xcconfig */,
+				9C24F419055C1068A512C919 /* Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.debug.xcconfig */,
+				E239EA6B8F46EEC2EE7635A8 /* Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.release.xcconfig */,
+				88FCB211F25DF0F2389528F2 /* Pods-debug-asiapay-sdkTests.debug.xcconfig */,
+				29ED62EA95F4463061EC8D88 /* Pods-debug-asiapay-sdkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94E5B949A8D3E7F5B9109750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0FF113E4F7EF4A3B03E6B88 /* Pods_debug_asiapay_sdk.framework */,
+				4E381C9E62B3885588928FA4 /* Pods_debug_asiapay_sdk_debug_asiapay_sdkUITests.framework */,
+				4C39BB73FDD550F1E2D7F72F /* Pods_debug_asiapay_sdkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10013A9328C8A88C009A9449 /* Build configuration list for PBXNativeTarget "debug-asiapay-sdk" */;
 			buildPhases = (
+				4351F3653700D3BB8D133B2C /* [CP] Check Pods Manifest.lock */,
 				10013A6028C8A88B009A9449 /* Sources */,
 				10013A6128C8A88B009A9449 /* Frameworks */,
 				10013A6228C8A88B009A9449 /* Resources */,
+				B929913DD00582602B28C28F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10013A9628C8A88C009A9449 /* Build configuration list for PBXNativeTarget "debug-asiapay-sdkTests" */;
 			buildPhases = (
+				1A31898BFB79660620E2DACA /* [CP] Check Pods Manifest.lock */,
 				10013A7B28C8A88C009A9449 /* Sources */,
 				10013A7C28C8A88C009A9449 /* Frameworks */,
 				10013A7D28C8A88C009A9449 /* Resources */,
@@ -179,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10013A9928C8A88C009A9449 /* Build configuration list for PBXNativeTarget "debug-asiapay-sdkUITests" */;
 			buildPhases = (
+				71E28A9744EA5FA0674BCC7B /* [CP] Check Pods Manifest.lock */,
 				10013A8628C8A88C009A9449 /* Sources */,
 				10013A8728C8A88C009A9449 /* Frameworks */,
 				10013A8828C8A88C009A9449 /* Resources */,
+				5EEEA2A0395D1371390AE0FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +289,7 @@
 			files = (
 				10013A7728C8A88C009A9449 /* LaunchScreen.storyboard in Resources */,
 				10013A7428C8A88C009A9449 /* Assets.xcassets in Resources */,
+				10013A9D28C8AA71009A9449 /* paysdk.plist in Resources */,
 				10013A7228C8A88B009A9449 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A31898BFB79660620E2DACA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-debug-asiapay-sdkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4351F3653700D3BB8D133B2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-debug-asiapay-sdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EEEA2A0395D1371390AE0FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71E28A9744EA5FA0674BCC7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B929913DD00582602B28C28F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-debug-asiapay-sdk/Pods-debug-asiapay-sdk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-debug-asiapay-sdk/Pods-debug-asiapay-sdk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-debug-asiapay-sdk/Pods-debug-asiapay-sdk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10013A6028C8A88B009A9449 /* Sources */ = {
@@ -438,42 +590,49 @@
 		};
 		10013A9428C8A88C009A9449 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53216FC37E2C189A27DAACB3 /* Pods-debug-asiapay-sdk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T3S2A78B46;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "debug-asiapay-sdk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "samchan.debug-asiapay-sdk";
+				PRODUCT_BUNDLE_IDENTIFIER = com.put.your.bunde.id.here;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		10013A9528C8A88C009A9449 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726E7B3015DD0CA042653989 /* Pods-debug-asiapay-sdk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T3S2A78B46;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "debug-asiapay-sdk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "samchan.debug-asiapay-sdk";
+				PRODUCT_BUNDLE_IDENTIFIER = com.put.your.bunde.id.here;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		10013A9728C8A88C009A9449 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FCB211F25DF0F2389528F2 /* Pods-debug-asiapay-sdkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +653,7 @@
 		};
 		10013A9828C8A88C009A9449 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ED62EA95F4463061EC8D88 /* Pods-debug-asiapay-sdkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +674,7 @@
 		};
 		10013A9A28C8A88C009A9449 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C24F419055C1068A512C919 /* Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3S2A78B46;
@@ -532,6 +693,7 @@
 		};
 		10013A9B28C8A88C009A9449 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E239EA6B8F46EEC2EE7635A8 /* Pods-debug-asiapay-sdk-debug-asiapay-sdkUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3S2A78B46;

@@ -2,13 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
-	<dict>
-		<key>debug-asiapay-sdk.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-	</dict>
+	<key>SDK_RSA_PublicKey</key>
+	<string>PUT_YOUR_PUBLIC_KEY_HERE</string>
+	<key>Domain</key>
+	<string></string>
 </dict>
 </plist>
